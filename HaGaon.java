@@ -42,7 +42,7 @@ public class HaGaon {
 		Object[] EventListers = {waiter,client};
 		new JDABuilder(AccountType.BOT)
 		// set the token
-		.setToken("")
+		.setToken("NTg4ODgzMDY1NDYwNDkwMjYw.XQOazQ.OcbyZY3XdD8oxdljFRk3yhPKjM0")
 
 		// set the game for when the bot is loading
 		.setGame(Game.playing("loading..."))
