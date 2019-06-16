@@ -21,17 +21,12 @@
            <version>1.2.2_139</version>
         </dependency>
 
-   <dependency>
+  <dependency>
     <groupId>com.jagrosh</groupId>
-    <artifactId>jda-utilities</artifactId>
+    <!-- Notice that the dependency notation ends with "-command" -->
+    <artifactId>jda-utilities-command</artifactId>
     <version>JDA-UTILITIES-VERSION</version>
     <scope>compile</scope>
-    <type>pom</type>
-  </dependency>
-  <dependency>
-    <groupId>net.dv8tion</groupId>
-    <artifactId>JDA</artifactId>
-    <version>JDA-VERSION</version>
   </dependency>
 
 
