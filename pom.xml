@@ -21,12 +21,19 @@
            <version>1.2.2_139</version>
         </dependency>
 
-        <dependency>
-           <groupId>com.jagrosh</groupId>
-           <artifactId>jda-utilities</artifactId>
-           <version>2.1.5</version>
-           <scope>compile</scope>
-           <type>pom</type>
-        </dependency>
+   <dependency>
+    <groupId>com.jagrosh</groupId>
+    <artifactId>jda-utilities</artifactId>
+    <version>JDA-UTILITIES-VERSION</version>
+    <scope>compile</scope>
+    <type>pom</type>
+  </dependency>
+  <dependency>
+    <groupId>net.dv8tion</groupId>
+    <artifactId>JDA</artifactId>
+    <version>JDA-VERSION</version>
+  </dependency>
+
+
     </dependencies>
 </project>
