@@ -28,11 +28,7 @@
     <version>JDA-VERSION</version>
   </dependency>
 
-               <repository>
-    <id>central</id>
-    <name>bintray</name>
-    <url>http://jcenter.bintray.com</url>
-  </repository>
+
 
     </dependencies>
 </project>
