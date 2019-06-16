@@ -16,13 +16,6 @@
         </dependency>
 
   
-<dependency>
-  <groupId>net.dv8tion</groupId>
-  <artifactId>JDA</artifactId>
-  <version>4.BETA.0_1</version>
-  <type>pom</type>
-</dependency>
-
 
     </dependencies>
 </project>
