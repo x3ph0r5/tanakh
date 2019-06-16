@@ -15,11 +15,16 @@
             <version>2.8.5</version>
         </dependency>
 
-  <dependency>
+ <dependency>
     <groupId>net.dv8tion</groupId>
     <artifactId>JDA</artifactId>
-    <version>VERSION</version>
+    <version>3.8.3_463</version>
 </dependency>
+<repository>
+    <id>jcenter</id>
+    <name>jcenter-bintray</name>
+    <url>http://jcenter.bintray.com</url>
+</repository>
 
     </dependencies>
 </project>
