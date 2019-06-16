@@ -28,6 +28,15 @@
            <scope>compile</scope>
            <type>pom</type>
         </dependency>
+             
+             <!-- https://mvnrepository.com/artifact/org.tritonus/tritonus-dsp -->
+<dependency>
+    <groupId>org.tritonus</groupId>
+    <artifactId>tritonus-dsp</artifactId>
+    <version>0.3.6</version>
+</dependency>
+             
+             
     </dependencies>
     
     <repositories>
