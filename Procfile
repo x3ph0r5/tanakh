@@ -1,1 +1,1 @@
-worker: node Hagaon.java
+worker: node HaGaon.java
