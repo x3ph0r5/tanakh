@@ -12,7 +12,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <dependency>
         <groupId>net.dv8tion</groupId>
         <artifactId>JDA</artifactId>
-        <version>3.6.0_362</version>
+        <version>VERSION</version>
     </dependency>
         
     <dependency>
