@@ -1,1 +1,2 @@
-web: java -java HaGaon.java
+javac HaGaon.java
+java HaGaon
