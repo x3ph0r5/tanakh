@@ -41,7 +41,7 @@ public class HaGaon {
 		CommandClient client = builder.build();
 		Object[] EventListers = {waiter,client};
 		
-		String Token = "";
+		String Token = "NTg4ODgzMDY1NDYwNDkwMjYw.XQdtEQ.d2dFdYUd9m_8Px5pqT11NsRXgCw";
         //String Token = "";
         try {
             JDA jda= new JDABuilder(AccountType.BOT).setToken(Token).buildAsync();
@@ -51,7 +51,7 @@ public class HaGaon {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-		
+		/*
 		
 		new JDABuilder(AccountType.BOT)
 		// set the token
@@ -64,6 +64,7 @@ public class HaGaon {
 		.addEventListener(EventListers)
 		// start it up!
 		.buildAsync();
+		*/
 
 	}
 }
