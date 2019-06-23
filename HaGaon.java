@@ -41,7 +41,7 @@ public class HaGaon {
 		CommandClient client = builder.build();
 		Object[] EventListers = {waiter,client};
 		
-		String Token = "TOKEN";
+		String Token = process.env.TOKEN;
         //String Token = "";
         try {
             JDA jda= new JDABuilder(AccountType.BOT).setToken(Token).buildAsync();
