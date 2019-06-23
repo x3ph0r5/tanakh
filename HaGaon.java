@@ -41,7 +41,7 @@ public class HaGaon {
 		CommandClient client = builder.build();
 		Object[] EventListers = {waiter,client};
 		
-		String Token = "NTg4ODgzMDY1NDYwNDkwMjYw.XQ7I8A.TKn9CWl7VMvNE3h95c4_jou-Oq4";
+		String Token = "TOKEN";
         //String Token = "";
         try {
             JDA jda= new JDABuilder(AccountType.BOT).setToken(Token).buildAsync();
@@ -55,7 +55,7 @@ public class HaGaon {
 		
 		new JDABuilder(AccountType.BOT)
 		// set the token
-		.setToken("NTg4ODgzMDY1NDYwNDkwMjYw.XQ7I8A.TKn9CWl7VMvNE3h95c4_jou-Oq4")
+		.setToken("")
 
 		// set the game for when the bot is loading
 		.setGame(Game.playing("loading..."))
