@@ -40,6 +40,19 @@ public class HaGaon {
 		builder.setPrefix("!!");
 		CommandClient client = builder.build();
 		Object[] EventListers = {waiter,client};
+		
+		String Token = "";
+        //String Token = "";
+        try {
+            JDA jda= new JDABuilder(AccountType.BOT).setToken(Token).buildAsync();
+            jda.addEventListener(new BotListener());
+            System.out.println("Bot connecté");
+        } catch (LoginException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+		
+		
 		new JDABuilder(AccountType.BOT)
 		// set the token
 		.setToken("NTg4ODgzMDY1NDYwNDkwMjYw.XQdtEQ.d2dFdYUd9m_8Px5pqT11NsRXgCw")
